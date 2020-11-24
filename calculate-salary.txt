@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="Header_Nav_Style_Hr_Admin.css">
+    <title >Calculate Salary </title>
+</head>
+ <style>
+        /*************************** Start Of content *******************************/
+    
+     #salary_text{
+         
+         box-sizing:auto;
+         border: 4px solid rgba(0, 0, 0, 0.4) ;
+         opacity: 0.6;
+         padding: 10px;
+     }
+ /***************************** End of Content ********************************/
+    </style>
+
+<body>
+<!-- *********************** Start Of The Navigation & Header ******************************** -->
+
+    <ul id="ul-nav-Header">
+      <li><img id="avatar" src="img_avatar.jpg" alt="Avatar"></li>
+      <li ><a   href="#">Mahmoud Refaat</a></li>
+      <li id="header_logout"; ><a style="float:right; " style="float:right; " href="#">Log Out</a></li>
+       <li id="header_info"; ><a  style="float:right;" href="../header_page/myinfo_hradmin.html" >My Info</a></li>
+    </ul>
+    <ul id="ul-nav" >
+        <li> <img id="logo" src="logo.png" alt="logo"> </li>
+        <li> <a href="Hr_Admain_Home.html">View Reports </a> </li>
+        <li> <a href="search-employee.html">Search Employee </a> </li>
+        <li> <a href="update-empoyee.html">Update Employee </a> </li>
+        <li> <a href="calculate-salary.html">Calculate Salary</a> </li>
+        <li> <a href="add-employee.html">Add Employee</a> </li>
+        <li> <a href="delete%20.html">Delete Employee</a> </li>
+    </ul>
+    
+<!-- ***********************End Of The Navigation and Header***************************** -->
+    
+<div class="content" >
+    <label id="search_label">
+        <a> Write The Employee Code </a>
+        <input style ="height:25px;" type="text">
+        <input class="btn_public_hradmin" id="btn_search" type="button" value="Search" name="search" style="height:30px;">
+    </label>
+    
+<form class="public_hr_admin_form" id="calculate_salary_form" action ="action_page.php">
+    <h3>
+    <fieldset> 
+        <legend>salary info</legend>
+        
+        <a>code:</a><input class="edit_text" type="text">
+        <br>
+        <a>No.of permissions:</a><input class="edit_text" type="text" name="No_of_permissions">
+        <br> 
+        <a>No.of vacation(s):</a><input class="edit_text" type="text">
+        <br>
+        <a>No.of arriving late in min per day:</a><input class="edit_text" type= "text">
+        <br>
+        <a>slicing of late arrival :</a><input class="edit_text" type="text">
+        <br>
+        <a>gross salary:</a><input class="edit_text" type="text">
+        <br>
+        <a>cut-off in pounds:</a><input class="edit_text" type="text">
+        <br>
+        <a>Taxes:</a><input class="edit_text" type="text">
+        <br>
+        <a>Net salary:</a><input class="edit_text" type="text">
+        <br>
+     <a> Payment Method: </a> <select name="payment method" style ="height: 21px;">
+             <option value="cash">cash</option>
+             <option value="visa">visa</option>
+             <option value="paypal">paypal</option>
+     </select>
+        <br>
+    <input class="btn_public_hradmin" id="btn_calc" type="button" value="calculate salary">
+        <a> Total salary =</a><a id="salary_text" > The Salary will appear Here </a>
+        <br>
+   </h3>
+   </fieldset>
+   
+</div>
+    
+</body>
+</html>

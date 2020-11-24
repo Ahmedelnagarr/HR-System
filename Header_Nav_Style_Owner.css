@@ -1,0 +1,195 @@
+     
+   body{
+          font-family:"Arial", Serif;
+          background-color:#252839;
+          overflow-x:hidden;
+          width: 100%;
+          height: 1000px;
+          margin:0;
+        }
+        
+        /*The Header *******************************************************************/
+      #ul-nav-Header{
+      background-color:#677077;
+      overflow:hidden;
+      height:50px;
+          z-index:1;
+          
+          margin-block-start: 0em;
+            padding-inline-start:0px;
+            
+    }
+
+    #ul-nav-Header a{
+      float:left;
+      display:block;
+      color:#f2f2f2;
+      text-align:center;
+      padding:15px 16px;
+      text-decoration:none;
+      font-size:17px;
+    }
+
+    #ul-nav-Header li{
+      /*margin:8px 0 0 0;*/
+      list-style:none;
+      display: inline;
+        }
+
+    /*#ul-nav-Header a:hover{
+      background-color:#f2b632;
+      color:#000;
+    }*/
+        #header_info a:hover{
+        background-color:#f2b632;
+      color:#000;
+        }
+        #header_logout a:hover{
+        background-color:red;
+        color:fff;
+        }
+img#avatar {
+            padding: 5px;
+            border-radius: 50%;
+            width:48px;
+            height: 43px;
+            float: left;
+            margin-left: 2%;
+        }
+        
+        img#logo{
+            width:48px;
+            height: 43px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 5px;
+            border-radius: 50%;
+            position: relative;
+            top: -4%; bottom: 0; left: 27%; right: 0;
+        }
+/* End Of The Header *********************************************************/
+       /********************************** Content *********************/
+         .grid_content_second_div h3{
+             margin-left: 100px;
+             color:#252839;
+             background-color: #fff;
+             opacity: 0.9;
+             width: 260px; 
+             padding:10px;
+             border-radius:10px;
+             text-align: center;
+             }
+        .grid_content{
+            
+            margin-top: 100px;
+            margin-left:70px; 
+            display: grid;
+            grid-template-columns: 600px 600px;
+            grid-template-rows: 300px;
+        }
+     .public_employee_form 
+         { 
+             color:  #252839;
+             background-color: #fff;
+             opacity: 0.9;
+             margin-left: 20px;
+             border: 1px solid rgba(0, 0, 0, 0.1);
+             max-width: 600px;
+             padding: 20px 30px 20px;
+             border-radius:7%; 
+             margin-top: 20px;
+         }
+         .public_employee_form input{
+             margin:10px;   
+         }
+        .public_employee_form td{/* Signing Report Table */
+          text-align: center;
+            }
+         .public_employee_form a{
+
+
+         }
+        .btn_public_employee {
+                background-color:#f2b632;
+                color:#252839;
+                width:auto;
+                height:40px; 
+                font-size:18px;
+                border: 1px solid #f2b632;
+         }
+    
+         .view_text{/* the person report input align center*/
+             width: 30px;
+             margin-left:8px;
+             padding: 5px;
+             text-align: center;
+
+                   }
+        
+            #vt_p_status ,#vt_v_status{
+                    width: 90px;
+                        }
+         .edit_text{/*Text Size */
+                height:23px;
+                }
+
+/********************* End of content *******************************/
+/***************** table **********************/
+ .grid_content_second_div h3{
+             margin-left: 250px;
+             color:#252839;
+             background-color: #fff;
+             opacity: 0.9;
+             width: 260px; 
+             padding:10px;
+             border-radius:10px;
+             text-align: center;
+             }
+        .grid_content{
+            
+            margin-top: 100px;
+            margin-left:70px; 
+            display: grid;
+            grid-template-columns: 600px 600px;
+            grid-template-rows: 300px;
+        }
+
+.public_employee_table
+         { 
+             color:  #252839;
+             background-color: #fff;
+             opacity: 0.9;
+             margin-left: 150px;
+             border: 1px solid rgba(0, 0, 0, 0.1);
+             max-width: 600px;
+             padding: 20px 30px 20px;
+             border-radius:7%; 
+             margin-top: 20px;
+         }
+         .public_employee_table input{
+             margin:10px;   
+         }
+        .public_employee_table td{/* Signing Report Table */
+          text-align: center;
+            }
+         .public_employee_table a{
+
+         }
+            .view_text{/* the person report input align center*/
+             width: 30px;
+             margin-left:8px;
+             padding: 5px;
+             text-align: center;
+
+                   }
+
+   #go_back {/* hr public button */
+            background-color:#f2b632;
+            color:#252839;
+            width:auto;
+            height:40px; 
+            padding: 8px;
+            border-radius: 10px;
+            font-size:18px;
+            border: 1px solid #f2b632;
+     }

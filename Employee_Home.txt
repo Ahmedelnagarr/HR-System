@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- Employee_Home  -->
+<html>
+    <head> 
+ <title> Home </title>
+   <link rel="stylesheet" type="text/css" href="Header_Nav_Style_employee.css"> 
+</head>
+   
+<body>
+    <ul id="ul-nav-Header">
+      <li><img id="avatar" src="img_avatar.jpg" alt="Avatar"></li>
+      <li ><a   href="#">Mahmoud Refaat</a></li>
+      <li id="header_logout"; ><a style="float:right; " style="float:right; " href="#">Log Out</a></li>
+       <li id="header_info"; ><a  style="float:right;" href="../header_page/myinfo_employee.html" >My Info</a></li>
+    </ul>
+    <ul id="ul-nav" >
+        <li> <img id="logo" src="logo.png" alt="logo"> </li>
+        <li> <a href="Employee_Home.html">General  Report </a> </li>
+        <li> <a href="signing-report.html">Signing Report </a> </li>
+        <li> <a href="make-vacation.html">Make vacation </a> </li>
+        <li> <a href="make-permission.html">Make permission</a> </li>
+    </ul> 
+    
+    
+        
+<form class="public_employee_form" id="make_permission_form" action ="action_page.php" style=" margin-left: 303px; text-align: center;"> 
+    <fieldset>
+        <legend>My General Report</legend>
+        <a>Name :</a> <input class="view_text" value="NaNaNaNaNaNa"type="text" style="width: auto;" disabled>  
+        <a>Code :</a> <input class="view_text" value="0000"type="text" style="width: auto;" disabled>
+    
+ <h5>
+     <h3>Permissions</h3>
+        <a>Current count of permissions:</a>
+        <input class = "view_text" id="vt_current_p" type="number" value="00" disabled>
+            <br>
+     <h3>Vacations</h3>
+       <a>Total days of vacations:</a><input class = "view_text" id="vt_total_v" type="number" value="00" disabled >
+     <br>    
+     <h3>Salary</h3>
+     
+        <a>No.of arriving late in min per day:</a><input class="edit_text" type= "text" disabled>
+        <br>
+        <a>slicing of late arrival :</a><input class="edit_text" type="text" disabled>
+        <br>
+        <a>gross salary:</a><input class="edit_text" type="text" disabled>
+        <br>
+        <a>cut-off in pounds:</a><input class="edit_text" type="text" disabled>
+        <br>
+        <a>Taxes:</a><input class="edit_text" type="text" disabled>
+        <br>
+        <a>Net salary:</a><input class="edit_text" type="text" disabled>
+        <br>
+        <a> Total salary =</a><input class = "view_text" id="vt_total_salary" type="number" value="00000" style="width: 100px;" disabled>
+        <br>
+ </h5>
+    </fieldset>
+    </form>
+        
+    </body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="Header_Nav_Style_Hr_Admin.css">
+    <title >Delete Employee </title>
+</head>
+ <style>
+     #salary_text{    
+         box-sizing:auto;
+         border: 4px solid rgba(0, 0, 0, 0.4) ;
+         opacity: 0.6;
+         padding: 10px;
+     }
+    </style>
+
+<body>
+<!-- *********************** Start Of The Navigation & Header ******************************** -->
+
+    <ul id="ul-nav-Header">
+      <li><img id="avatar" src="img_avatar.jpg" alt="Avatar"></li>
+      <li ><a   href="#">Mahmoud Refaat</a></li>
+      <li id="header_logout"; ><a style="float:right; " style="float:right; " href="#">Log Out</a></li>
+       <li id="header_info"; ><a  style="float:right;" href="../header_page/myinfo_hradmin.html" >My Info</a></li>
+    </ul>
+    <ul id="ul-nav" >
+        <li> <img id="logo" src="logo.png" alt="logo"> </li>
+        <li> <a href="Hr_Admain_Home.html">View Reports </a> </li>
+        <li> <a href="search-employee.html">Search Employee </a> </li>
+        <li> <a href="update-empoyee.html">Update Employee </a> </li>
+        <li> <a href="calculate-salary.html">Calculate Salary</a> </li>
+        <li> <a href="add-employee.html">Add Employee</a> </li>
+        <li> <a href="delete%20.html">Delete Employee</a> </li>
+    </ul>
+    
+<!-- ***********************End Of The Navigation and Header***************************** -->
+    
+<div class="content" >
+    <label id="search_label">
+        <a> Write The Employee Code </a>
+        <input style ="height:25px;" type="text">
+        <input class="btn_public_hradmin" id="btn_search" type="button" value="Search" name="search" style="height:30px;">
+    </label>
+    
+<form class="public_hr_admin_form" id="employee_info_form" action ="action_page.php" style="max-width:500px">
+    <h3>
+    <fieldset> 
+        <legend>Delete Employee</legend>
+                        code: <input class="edit_text" type="text" name="code" value=""disabled>
+                        <br>
+						First name:<input class="edit_text" type="text" name="first_name" value="" disabled>
+                        <br>
+                        Last name:<input  class="edit_text" type="text" name="last_name" value="" disabled>
+                        <br>				  
+                        Faculty:<input class="edit_text" type="text" name="faculty" value="" disabled>
+                        <br>
+                        Department:<input class="edit_text" type="text" name="department" value="" disabled>
+						<br> 
+                        Nationality:<input class="edit_text" type="text" name="nationality" value="" disabled>
+                        <br>				  
+                        Gender:<input class="edit_text" type="text" name="gander" value="" disabled>
+                        <br>
+						RF Card NO:<input class="edit_text" type="text" name="rf_card_no" value="" disabled>
+                        <br>				
+                        Title:<input class="edit_text" type="text" name="title" value="" disabled>
+         <input class="btn_public_hradmin" id="button_delete_employee" type ="button" value="Delete Emplyee" 
+                style="margin-left: 169px;background-color:#F00; border-color:F00;border: 1px solid #F00 ">
+   </h3>
+   </fieldset>
+   
+</div>
+    
+</body>
+</html>
+
+

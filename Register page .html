@@ -1,0 +1,93 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+	<title>HR System</title>
+	</head>
+    <style>
+        body{
+            background-color: #252839;
+/* https://www.anarapublishing.com/wp-content/uploads/2017/05/joao-silas-65013-unsplash.jpg */
+            /*background-image:url(bg.jpg);*/
+            /* background-repeat: no-repeat;
+            background-size:cover;
+            background-attachment: fixed; */
+            color: #677077;
+        }
+        .emailandpass ,#form-signin-heading,#login-btn,#stack_select
+        {
+            
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        #container{
+         margin-top: 120px;
+               }
+        #signin-form
+        {
+         margin: 0 auto;
+         background-color: #fff;
+         opacity: 0.9;
+         border: 1px solid rgba(0, 0, 0, 0.1);
+         max-width: 380px;
+         padding: 15px 35px 45px;
+            border-radius:7%; 
+        }
+        h2{
+            "margin-bottom: 30px;
+        }
+        
+        #rememberme{
+        margin-top: 10px;
+        margin-bottom:30px;
+        margin-left: 35%;
+        }
+        
+        
+        .emailandpass {
+            font-size: 16px;
+            height: 25px;
+            width: 70%;
+            padding: 10px;
+        }
+        #stack_select
+        {
+            height:30px;
+            
+        }
+        #login-btn{
+            background-color:#f2b632;
+            color:#252839;
+            width:210px;
+            height:40px; 
+            font-size:18px;
+            border: 1px solid #f2b632;
+        }
+    </style>
+ <body>  
+
+    <div id="container">
+    <form id="signin-form">       
+      <h2 id="form-signin-heading" style="text-align: center;" >Please login</h2>
+        <!-- </br> -->
+      <input class="emailandpass"  type="text"  name="username" placeholder="Email Address" />
+        
+
+       </br>
+      <input class="emailandpass" type="password" name="password" placeholder="Password" />   
+     </br>
+    <select id="stack_select"name="Stackholder" style="width:100px;">
+            <option value="Owner">Owner</option>
+            <option value="Hr admin">Hr Admin</option>
+            <option value="Employee">Employee</option>
+        </select>
+    </br> 
+    <input id="rememberme" type="checkbox" value="remember-me"  name="rememberMe"> Remember me
+       
+    </br>
+      <input id="login-btn" type="submit" value="Login" >   
+    </form>
+  </div>
+     
+ </body>
+</html>

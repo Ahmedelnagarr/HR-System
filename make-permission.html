@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+ <head> <meta charset ="UTF-8"> 
+ <title> Make permission </title>
+   <link rel="stylesheet" type="text/css" href="Header_Nav_Style_employee.css"> 
+</head>
+
+<body>
+    <!-- Start Of The Navigation & Header ********************************************************* -->
+
+   <ul id="ul-nav-Header">
+      <li><img id="avatar" src="img_avatar.jpg" alt="Avatar"></li>
+      <li ><a   href="#">Mahmoud Refaat</a></li>
+      <li id="header_logout"; ><a style="float:right; " style="float:right; " href="#">Log Out</a></li>
+       <li id="header_info"; ><a  style="float:right;" href="../header_page/myinfo_employee.html" >My Info</a></li>
+    </ul>
+    <ul id="ul-nav" >
+        <li> <img id="logo" src="logo.png" alt="logo"> </li>
+         <li> <a href="Employee_Home.html">General  Report </a> </li>
+        <li> <a href="signing-report.html">Signing Report </a> </li>
+        <li> <a href="make-vacation.html">Make vacation </a> </li>
+        <li> <a href="make-permission.html">Make permission</a> </li>
+    </ul> 
+    
+    
+<!-- End Of The Navigation and Header********************************************************* -->
+
+<div class="content" >
+<form class="public_employee_form" id="make_permission_form" action ="action_page.php"> 
+    <fieldset>
+ <h5 style="float: right;">
+        <a>Current count of permissions:</a>
+        <input class = "view_text" id="vt_current_p" type="number" value="00" disabled>
+            <br>
+        <a>Total count of permissions:</a>
+        <input class="view_text" id="vt_tota_p" type="number" value="00"  disabled >
+            <br>
+        <a>Permission status :</a><input class = "view_text" id = "vt_p_status" type="text" value="Good" disabled >
+ </h5>
+ <h4 style="margin-top:150px; " >
+            <br>
+        <a>code :</a><input class="edit_text" name="code" type= "text">
+            <br>
+        <a>Type :</a><input class="edit_text" name="type" type="text">
+            <br>
+        <a>Reason :</a><input class="edit_text" name="reason"type="text">
+            <br>
+        <a>Departure-Time :</a><input class="edit_text" name="departure_time" type="time">
+            <br>
+        <a>Arrival-time:</a><input class="edit_text" name="arrival_time"type="time">
+            <br>
+</h4>
+
+        <input class="btn_public_employee" id="send_permission" type ="button" value="Send Permission Request" style="margin-left: 149px;">
+ 
+</div>    
+</body>
+</html>
+

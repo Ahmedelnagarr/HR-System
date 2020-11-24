@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- Employee_NAVGATION  -->
+<html>
+    <head>
+<link rel="stylesheet" type="text/css" href="Header_Nav_Style_Hr_Admin.css">
+    <title >Hr Admin </title>
+</head>
+   
+<body>
+    <!-- *********************** Start Of The Navigation & Header ******************************** -->
+    <ul id="ul-nav-Header">
+      <li><img id="avatar" src="img_avatar.jpg" alt="Avatar"></li>
+      <li ><a   href="#">Mahmoud Refaat</a></li>
+      <li id="header_logout"; ><a style="float:right; " style="float:right; " href="#">Log Out</a></li>
+       <li id="header_info"; ><a  style="float:right;" href="../header_page/myinfo_hradmin.html" >My Info</a></li>
+    </ul>
+    <ul id="ul-nav" >
+        <li> <img id="logo" src="logo.png" alt="logo"> </li>
+        <li> <a href="Hr_Admain_Home.html">View Reports </a> </li>
+        <li> <a href="search-employee.html">Search Employee </a> </li>
+        <li> <a href="update-empoyee.html">Update Employee </a> </li>
+        <li> <a href="calculate-salary.html">Calculate Salary</a> </li>
+        <li> <a href="add-employee.html">Add Employee</a> </li>
+        <li> <a href="delete%20.html">Delete Employee</a> </li>
+    </ul> 
+    <!-- ***********************End Of The Navigation and Header***************************** -->
+    
+            <div class="grid_content" > <!-- Start Of The Big div ------>
+                
+                  <div class="grid_content_second_div"  >
+        <h3>Research and development</h3>                
+    <table class="public_employee_table" id="signin_form" border ="1" cellpadding="11" cellspacing="10">
+        <tr> <th>Employee Name </th>          <th>Code</th>    <th> <a href="#"> Report </a> </th></tr>
+        <tr> <td id="d_name">NaNaNaNaNaNa</td> <td id="d_department"> 0000000</td> <td id="view_report"> <a href="the_person_report_hr_admin.html">View Report</td></tr>
+    </table>
+    
+                  </div>   
+                
+                <div class="grid_content_second_div"  >
+            <h3 style="margin-left: 250px;">IT services</h3> 
+        <table class="public_employee_table" id="signin_form" border ="1" cellpadding="11" cellspacing="10">
+            <tr> <th>Employee Name </th>   <th>Code</th>  <th> <a href="#"> Report </a> </th></tr>
+            <tr> <td id="d_name">NaNaNaNaNaNa</td> <td id="d_department"> 0000000</td>  <td id="view_report"> <a href="the_person_report_hr_admin.html">View Report</td></tr>
+        </table>
+    
+                </div>   
+                
+                
+    </div><!-- Close of the big div -->
+    </body>
+
+</html>
